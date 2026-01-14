@@ -36,7 +36,7 @@ instagram-reach-predictor/
 └── README.md                # Project documentation
 
 ```
-⚡ How to Run Locally
+* **How to Run Locally**
 
 1. Clone the repository:
 
@@ -63,5 +63,4 @@ Algorithm: I chose Gradient Boosting over Random Forest because it handled the n
 Contributions are welcome! If you have a larger dataset or ideas for new features (e.g., Hashtag analysis), feel free to fork the repo and submit a Pull Request.
 
 
-```markdown
 ![App Screenshot](screenshot.png)
