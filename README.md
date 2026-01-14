@@ -34,3 +34,33 @@ instagram-reach-predictor/
 ├── instagram_reach_data.csv # Dataset used for training
 ├── requirements.txt         # List of dependencies
 └── README.md                # Project documentation
+
+⚡ How to Run Locally
+
+1. Clone the repository:
+
+git clone [https://github.com/mkay860/instagram-reach-predictor.git](https://github.com/mkay860/instagram-reach-predictor.git)
+cd instagram-reach-predictor
+
+2. Install dependencies:
+
+pip install -r requirements.txt
+
+3. Run the application:
+
+streamlit run app.py
+Open your browser: The app should run automatically at http://localhost:8501.
+
+🧠 Model Insights
+The model was trained on a dataset of Instagram posts, analyzing the correlation between engagement metrics and total reach.
+
+Key Insight: Engagement (Likes/Comments) showed a 0.98 correlation with Reach, making it the strongest predictor.
+
+Algorithm: I chose Gradient Boosting over Random Forest because it handled the non-linear relationships between account size and viral reach more effectively.
+
+🤝 Contributing
+Contributions are welcome! If you have a larger dataset or ideas for new features (e.g., Hashtag analysis), feel free to fork the repo and submit a Pull Request.
+
+
+```markdown
+![App Screenshot](screenshot.png)
