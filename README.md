@@ -35,6 +35,7 @@ instagram-reach-predictor/
 ├── requirements.txt         # List of dependencies
 └── README.md                # Project documentation
 
+```
 ⚡ How to Run Locally
 
 1. Clone the repository:
